@@ -85,7 +85,7 @@ main .section.hero-horizontal-container {
 
 /* CTA button - white outlined on green background */
 .hero-horizontal a.button:any-link {
-  border-color: var(--color-white);
+  border: 1px solid var(--color-white);
   background-color: transparent;
   color: var(--color-white);
   margin-top: 8px;
