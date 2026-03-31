@@ -462,5 +462,5 @@ main .section.promo-banner a.button:any-link {
 }
 
 main .section.promo-banner a.button:hover {
-  background-color: rgb(255 255 255 / 20%);
+  background-color: var(--color-starbucks-green);
 }
