@@ -1,8 +1,7 @@
 /* hero-horizontal - 50/50 image + text side-by-side layout */
 
-/* section-level: remove margin/padding for edge-to-edge hero */
+/* section-level: remove padding for edge-to-edge hero, keep vertical margin for spacing */
 main .section.hero-horizontal-container {
-  margin: 0;
   padding: 0;
 }
 

@@ -70,7 +70,8 @@
 
 body {
   display: none;
-  margin: 0;
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
@@ -163,7 +164,7 @@ pre {
 }
 
 main > div {
-  margin: 40px 16px;
+  margin: 32px 16px;
 }
 
 input,
@@ -334,7 +335,7 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 40px 0;
+  margin: 32px 0;
 }
 
 main > .section > div {
@@ -406,8 +407,7 @@ main .section.green a:any-link {
 main .section.starbucks-green {
   background-color: var(--color-starbucks-forest);
   color: var(--color-white);
-  margin: 0;
-  padding: 40px 0;
+  padding: 0;
 }
 
 main .section.starbucks-green h1,
@@ -428,7 +428,6 @@ main .section.starbucks-green a:any-link {
 main .section.promo-banner {
   background-color: var(--color-starbucks-house-green);
   color: var(--color-white);
-  margin: 0;
   padding: 32px 0;
   text-align: center;
 }
