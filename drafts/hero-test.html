@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hero Horizontal Test</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="stylesheet" href="/styles/fonts.css">
+  <link rel="stylesheet" href="/blocks/hero-horizontal/hero-horizontal.css">
+  <style>
+    /* simulate EDS body.appear */
+    body { display: block !important; }
+  </style>
+</head>
+<body>
+  <header style="height: 64px;"></header>
+  <main>
+    <!-- Hero 1: Image left, text right (starbucks-green section) -->
+    <div class="section hero-horizontal-container starbucks-green">
+      <div class="hero-horizontal-wrapper">
+        <div class="hero-horizontal block" data-block-name="hero-horizontal" data-block-status="loaded">
+          <div>
+            <div>
+              <picture><img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-107055.jpg" alt="A creamy iced tea drink with a thick foamy top in a clear cup." loading="eager"></picture>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h1 id="spring-break-travel-hack">Spring break travel hack</h1>
+              <p>Save time at the airport by ordering ahead in the Starbucks<sup>&reg;</sup> app. Then skip the line to pick up your faves on your way to the gate.</p>
+              <p class="button-wrapper"><a class="button secondary" href="https://www.starbucks.com/store-locator">Order, pick up &amp; fly</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero 2: Reversed - text left, image right (starbucks-green section) -->
+    <div class="section hero-horizontal-container starbucks-green">
+      <div class="hero-horizontal-wrapper">
+        <div class="hero-horizontal reverse block" data-block-name="hero-horizontal" data-block-status="loaded">
+          <div>
+            <div>
+              <picture><img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-107060.jpg" alt="Red-haired person in a denim vest holds a green iced Starbucks drink and a phone in front of a brick wall." loading="lazy"></picture>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h2 id="the-new-starbucks-rewards-is-here">The new Starbucks<sup>&reg;</sup> Rewards is here</h2>
+              <p>Introducing three new status levels, new perks and more ways to earn Stars than ever.*</p>
+              <p class="button-wrapper"><a class="button secondary" href="https://www.starbucks.com/rewards">See what it means for you</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero 3: Image left, text right (default section - no green) -->
+    <div class="section hero-horizontal-container">
+      <div class="hero-horizontal-wrapper">
+        <div class="hero-horizontal block" data-block-name="hero-horizontal" data-block-status="loaded">
+          <div>
+            <div>
+              <picture><img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-107017.jpg" alt="Four iced beverages sit on a white table." loading="lazy"></picture>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h2 id="spring-starts-now">Spring starts now</h2>
+              <p>Iced Lavender Cream Matcha and Iced Lavender Cream Chai are back in bloom, joined by the new Iced Ube Coconut Macchiato, Toasted Coconut Cream Cold Brew and so much more.</p>
+              <p class="button-wrapper"><a class="button secondary" href="https://www.starbucks.com/menu/featured/">See the spring menu</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero 4: Reversed - text left, image right (starbucks-green section) -->
+    <div class="section hero-horizontal-container starbucks-green">
+      <div class="hero-horizontal-wrapper">
+        <div class="hero-horizontal reverse block" data-block-name="hero-horizontal" data-block-status="loaded">
+          <div>
+            <div>
+              <picture><img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-107057.jpg" alt="A pair of hands holds a mug filled with creamy foamed matcha." loading="lazy"></picture>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h2 id="made-especially-for-matcha-fans">Made especially for matcha fans</h2>
+              <p>Show off your love of matcha with new drinkware in every shade of fresh-whisked green.</p>
+              <p class="button-wrapper"><a class="button secondary" href="https://www.starbucks.com/store-locator">Find a store</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+</html>

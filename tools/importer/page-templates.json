@@ -1,0 +1,198 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.starbucks.com/"
+      ],
+      "description": "Starbucks homepage with hero promotions, featured products, and brand storytelling sections",
+      "blocks": [
+        {
+          "name": "hero-horizontal",
+          "instances": [
+            "[id=\"137-107004\"]",
+            "[id=\"137-107061\"]",
+            "[id=\"137-107018\"]",
+            "[id=\"137-107058\"]"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Promo Banner",
+          "selector": "[id=\"137-101291\"]",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "[id=\"137-101291\"] .content-block_innerContentContainer__VNBML"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "Spring Break Travel Hack",
+          "selector": "[id=\"137-107004\"]",
+          "style": "starbucks-green",
+          "blocks": [
+            "hero-horizontal"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Starbucks Rewards",
+          "selector": "[id=\"137-107061\"]",
+          "style": "starbucks-green",
+          "blocks": [
+            "hero-horizontal"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Spring Starts Now",
+          "selector": "[id=\"137-107018\"]",
+          "style": null,
+          "blocks": [
+            "hero-horizontal"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Matcha Fans",
+          "selector": "[id=\"137-107058\"]",
+          "style": "starbucks-green",
+          "blocks": [
+            "hero-horizontal"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6",
+          "name": "Fine Print",
+          "selector": "[id=\"137-107062\"]",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "[id=\"137-107062\"] .content-block_innerContentContainer__VNBML"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "about-us",
+      "urls": [
+        "https://www.starbucks.com/about-us/"
+      ],
+      "description": "Starbucks About Us page - narrative landing page with company heritage, values, and directory links",
+      "blocks": [],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Page Title",
+          "selector": "main > div:nth-child(1)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(1) .content-block_innerContentContainer__VNBML"]
+        },
+        {
+          "id": "section-2",
+          "name": "Our Heritage",
+          "selector": "main > div:nth-child(2)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(2)"]
+        },
+        {
+          "id": "section-3",
+          "name": "Coffee & Craft",
+          "selector": "main > div:nth-child(3)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(3)"]
+        },
+        {
+          "id": "section-4",
+          "name": "Our Partners",
+          "selector": "main > div:nth-child(4)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(4)"]
+        },
+        {
+          "id": "section-5",
+          "name": "Doing Good",
+          "selector": "main > div:nth-child(5)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(5)"]
+        },
+        {
+          "id": "section-6",
+          "name": "People",
+          "selector": "main > div:nth-child(6)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(6) .content-block_innerContentContainer__VNBML"]
+        },
+        {
+          "id": "section-7",
+          "name": "Planet",
+          "selector": "main > div:nth-child(7)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(7) .content-block_innerContentContainer__VNBML"]
+        },
+        {
+          "id": "section-8",
+          "name": "Learn More Header",
+          "selector": "main > div:nth-child(8)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(8) .content-block_innerContentContainer__VNBML"]
+        },
+        {
+          "id": "section-9",
+          "name": "Stories & News",
+          "selector": "main > div:nth-child(9)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(9) .content-block_innerContentContainer__VNBML"]
+        },
+        {
+          "id": "section-10",
+          "name": "Company Profile",
+          "selector": "main > div:nth-child(10)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(10) .content-block_innerContentContainer__VNBML"]
+        },
+        {
+          "id": "section-11",
+          "name": "Company Timeline",
+          "selector": "main > div:nth-child(11)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(11) .content-block_innerContentContainer__VNBML"]
+        },
+        {
+          "id": "section-12",
+          "name": "Ethics & Compliance",
+          "selector": "main > div:nth-child(12)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(12) .content-block_innerContentContainer__VNBML"]
+        },
+        {
+          "id": "section-13",
+          "name": "Corporate Governance",
+          "selector": "main > div:nth-child(13)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": ["main > div:nth-child(13) .content-block_innerContentContainer__VNBML"]
+        }
+      ]
+    }
+  ]
+}

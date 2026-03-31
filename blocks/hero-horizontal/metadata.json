@@ -1,0 +1,41 @@
+{
+  "variantName": "hero-horizontal",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-03-28T17:05:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.starbucks.com/",
+    "originPage": "Starbucks homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "promo-hero",
+    "imagePattern": "large",
+    "structure": "image + heading + description + CTA"
+  },
+  "contentPattern": {
+    "structure": "50/50 side-by-side image and text split with alternating layout",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage promotional sections",
+      "marketing landing pages",
+      "product feature highlights",
+      "side-by-side image-text layouts"
+    ],
+    "notSuitableFor": [
+      "full-width background image heroes",
+      "text-only sections",
+      "card grids or lists"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-28T17:05:00.000Z"
+  }
+}

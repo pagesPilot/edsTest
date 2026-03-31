@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.starbucks.com/",
+  "path": "index",
+  "timestamp": "2026-03-28T17:36:48.519Z",
+  "title": "Starbucks Coffee Company",
+  "template": "homepage",
+  "blocks": [
+    "hero-horizontal",
+    "hero-horizontal",
+    "hero-horizontal",
+    "hero-horizontal"
+  ]
+}

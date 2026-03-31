@@ -1,0 +1,125 @@
+/* hero-horizontal - 50/50 image + text side-by-side layout */
+
+/* section-level: remove margin/padding for edge-to-edge hero */
+main .section.hero-horizontal-container {
+  margin: 0;
+  padding: 0;
+}
+
+/* full-bleed container */
+.hero-horizontal-container .hero-horizontal-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+/* block layout - stacked on mobile */
+.hero-horizontal {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: -0.16px;
+}
+
+/* both halves get green background */
+.hero-horizontal > div {
+  background-color: var(--color-starbucks-green-dark);
+}
+
+/* image half */
+.hero-horizontal > div:first-child {
+  overflow: hidden;
+  line-height: 0;
+}
+
+/* text half */
+.hero-horizontal > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+/* image half inner */
+.hero-horizontal > div:first-child > div {
+  height: 100%;
+}
+
+/* text half inner - 83% of column width */
+.hero-horizontal > div:last-child > div {
+  text-align: center;
+  max-width: 83%;
+}
+
+.hero-horizontal picture {
+  display: block;
+}
+
+.hero-horizontal img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* headings - 24px semibold to match original */
+.hero-horizontal h1,
+.hero-horizontal h2,
+.hero-horizontal h3,
+.hero-horizontal h4,
+.hero-horizontal h5,
+.hero-horizontal h6 {
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.hero-horizontal p {
+  color: var(--color-white);
+  font-size: 19px;
+  line-height: 1.75;
+}
+
+.hero-horizontal > div:first-child p {
+  margin: 0;
+}
+
+/* CTA button - white outlined on green background */
+.hero-horizontal a.button:any-link {
+  border-color: var(--color-white);
+  background-color: transparent;
+  color: var(--color-white);
+  margin-top: 8px;
+}
+
+.hero-horizontal a.button:hover {
+  background-color: rgb(255 255 255 / 20%);
+}
+
+/* desktop: side-by-side 50/50 */
+@media (width >= 900px) {
+  .hero-horizontal {
+    flex-direction: row;
+  }
+
+  .hero-horizontal > div {
+    flex: 0 0 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .hero-horizontal > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-horizontal > div:last-child {
+    padding: 32px 48px;
+  }
+
+  /* alternating layout - text left, image right */
+  .hero-horizontal.reverse {
+    flex-direction: row-reverse;
+  }
+}
