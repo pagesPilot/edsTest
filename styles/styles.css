@@ -8,7 +8,7 @@
   --background-color: #fff;
   --light-color: #f9f9f9;
   --dark-color: #1e3932;
-  --text-color: rgb(0 0 0 / 87%);
+  --text-color: #000;
   --text-color-strong: #000;
   --text-color-secondary: rgb(0 0 0 / 58%);
   --link-color: #00754a;
@@ -116,7 +116,7 @@ h6 {
 h1 {
   font-size: var(--heading-font-size-xxl);
   line-height: 1.2;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 h2 {
