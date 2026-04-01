@@ -258,12 +258,12 @@ button.button.primary:disabled:focus-visible {
   color: var(--text-color-secondary);
 }
 
-/* secondary button - outlined black */
+/* secondary button - outlined green (Starbucks style) */
 a.button.secondary,
 button.button.secondary {
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--color-starbucks-green);
   background-color: transparent;
-  color: var(--text-color);
+  color: var(--color-starbucks-green);
 }
 
 a.button.secondary:hover,
