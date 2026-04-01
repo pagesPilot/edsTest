@@ -349,6 +349,11 @@ main > .section:first-of-type {
   }
 }
 
+/* narrow default content to match original Starbucks 720px content width */
+main > .section > .default-content-wrapper {
+  max-width: 720px;
+}
+
 /* section metadata */
 main .section.light,
 main .section.highlight {
