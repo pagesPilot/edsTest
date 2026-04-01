@@ -224,11 +224,6 @@ button.button {
   white-space: nowrap;
 }
 
-/* remove content link styling from buttons */
-main a.button:any-link {
-  border-bottom: none;
-  padding-bottom: 7px;
-}
 
 a.button[aria-disabled="true"],
 button.button:disabled {
@@ -239,7 +234,7 @@ button.button:disabled {
 /* primary button - filled black */
 a.button.primary,
 button.button.primary {
-  border-color: var(--color-black);
+  border: 1px solid var(--color-black);
   background-color: var(--color-black);
   color: var(--color-white);
 }
@@ -266,7 +261,7 @@ button.button.primary:disabled:focus-visible {
 /* secondary button - outlined black */
 a.button.secondary,
 button.button.secondary {
-  border-color: var(--text-color);
+  border: 1px solid var(--text-color);
   background-color: transparent;
   color: var(--text-color);
 }
