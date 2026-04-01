@@ -21,6 +21,7 @@ export default function transform(hookName, element, payload) {
     ]);
   }
 
+
   if (hookName === TransformHook.afterTransform) {
     // Non-authorable: header navigation
     // Non-authorable: footer with link columns
@@ -39,5 +40,6 @@ export default function transform(hookName, element, payload) {
       'noscript',
       'link',
     ]);
+
   }
 }
